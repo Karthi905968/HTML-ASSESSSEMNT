@@ -1113,7 +1113,7 @@ nav {
   }
 }
 
-@media screen  and (min-width:1500px){
+@media screen  and (min-width:1300px){
 
   html{
     font-size: 75%;
@@ -1130,6 +1130,34 @@ nav {
   .bottom-mountain3{
     width: 100%;
     bottom: -10rem;
+  }
+
+  .mountain-right{
+     right: -45%;
+     bottom: -15%;
+  }
+
+  .cloud2{
+    right: 20rem;
+  }
+
+  .section5{
+    height: 25rem;
+  }
+
+  .text-info2{
+    width: 50%;
+  }
+
+  .man{
+    right: -35%;
+    bottom: 0;
+  }
+
+
+  .nav-txts{
+    left: 15%;
+    top: 25%;
   }
 }
 
