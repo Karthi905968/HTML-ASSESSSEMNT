@@ -1,0 +1,1173 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section1 {
+  height: 100vh;
+  background-image: url("https://res.cloudinary.com/denmnkoks/image/upload/v1710403328/background-sky_nn4dyx.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  top: 2rem;
+}
+
+.nav-section {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 20rem;
+}
+
+.nav-ol {
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.nav-button,
+.nav-button1 {
+  font-size: 1.8rem;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1.6rem;
+  width: 12rem;
+  z-index: 3;
+}
+
+.nav-button1 {
+  display: none;
+}
+
+.mountain-right {
+  position: absolute;
+  right: -50rem;
+  bottom: -5rem;
+  z-index: 9;
+}
+
+.mountain-bottom1 {
+  position: absolute;
+  left: -35rem;
+  bottom: -6rem;
+  z-index: 2;
+}
+
+.cloud1 {
+  position: absolute;
+  left: -18rem;
+  bottom: -5rem;
+  z-index: 5;
+}
+
+.cloud2 {
+  position: absolute;
+  right: 35rem;
+  bottom: 20rem;
+  z-index: 5;
+  z-index: 10;
+}
+
+.mountain-back {
+  position: absolute;
+  left: -30rem;
+  bottom: 0rem;
+}
+
+.sun {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  width: 30%;
+}
+
+.nav-txts {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  height: auto;
+  width: auto;
+}
+
+.nav-heading {
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.nav-desc {
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.61);
+}
+
+.nav-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-bottom: 0.3rem solid;
+  padding-bottom: 0.3rem;
+  display: inline;
+}
+
+.section2 {
+  background-color: #ffd2bf;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.man {
+  position: absolute;
+  bottom: 5rem;
+  right: -45rem;
+}
+
+.mountain-bottom2 {
+  position: absolute;
+  bottom: -5rem;
+}
+
+.birds {
+  position: absolute;
+  top: 5%;
+  right: 25%;
+}
+
+.text-info2 {
+  height: auto;
+  width: 35%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.heading2 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+.block1 {
+  height: 1rem;
+  width: 7rem;
+  display: block;
+  background: black;
+}
+
+.list-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #00000062;
+}
+
+.list-info > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-info > span > img {
+  padding-right: 1rem;
+}
+
+.description2 {
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.section3 {
+  height: 120vh;
+  background-color: #010305;
+  position: relative;
+  overflow: hidden;
+}
+
+.text-info3 {
+  height: 30%;
+  text-align: center;
+  max-width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading3 {
+  display: block;
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.block2 {
+  height: 1rem;
+  width: 7rem;
+  display: inline-block;
+  background: #ffd2bf;
+}
+
+.description3 {
+  font-size: 2rem;
+  color: #ffffffc0;
+  font-weight: 300;
+}
+
+.services {
+  height: 40%;
+  max-width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  height: 20rem;
+  width: 20rem;
+  padding: 1rem;
+  border: 1px dashed #ffd2bf90;
+  border-radius: 50%;
+}
+
+.service-card > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.service-title {
+  font-weight: bold;
+  color: #ffd2bf;
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 2rem;
+}
+
+.bottom-mountain3 {
+  position: absolute;
+  bottom: -5rem;
+}
+
+.section4 {
+  height: 90vh;
+  background: rgba(19, 7, 19, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.bottom-mountain4 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  z-index: 2;
+}
+
+.guide-section {
+  height: 85%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.guide-inner-section1 {
+  height: 40rem;
+  width: 60rem;
+}
+
+.guide-inner-section2 {
+  height: 40rem;
+  width: 50rem;
+}
+
+.guide-header {
+  display: block;
+  font-size: 4rem;
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+}
+
+.guide-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.guide-details > section {
+  width: 45%;
+  padding: 4rem 0;
+}
+
+.user-details {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.guide-user-info {
+  padding-left: 1rem;
+  color: white;
+}
+
+.user-name {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.user-bio {
+  font-size: 1.8rem;
+  color: #ffffff60;
+}
+
+.user-info1 {
+  font-size: 1.8rem;
+  color: #f2eeeeb8;
+  width: 90%;
+}
+
+.guide-button-section {
+  text-align: right;
+}
+
+.guide-button {
+  height: 4rem;
+  width: 15rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #cc2d41;
+  border-radius: 2rem;
+}
+
+.trail-desc {
+  font-size: 1.8rem;
+  color: #f2eeeeb8;
+  text-align: justify;
+}
+
+.trail-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.trail-info-name {
+  display: block;
+  color: #f2eeeef3;
+  font-weight: 500;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.trail-info-desc {
+  color: #ffffff44;
+  font-size: 1.6rem;
+}
+
+.section5 {
+  height: 30vh;
+  background-color: #530030;
+  overflow: hidden;
+}
+
+.bottom-mountain5 {
+  position: absolute;
+  bottom: 1rem;
+  left: -15rem;
+}
+
+.footer {
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 85%;
+  margin: 0 auto;
+  border-bottom: 1px solid #ffd2bf30;
+}
+
+.footer-ol {
+  list-style: none;
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #ffd2bf;
+}
+
+.footer-ol > li {
+  margin: 3.5rem;
+}
+
+.footer-end {
+  color: #f9f8f8e6;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (max-width:390px){
+  html{
+    font-size: 40%;
+  }
+
+  .nav-ol{
+    display: none;
+  }
+
+  .nav-button1{
+    display: block;
+  }
+
+  .mountain-right{
+    width: 250%;
+    right: -90rem;
+    bottom: 0rem;
+  }
+
+  .mountain-bottom1{
+    left: -121rem;
+    bottom: -7rem;
+    z-index: 12;
+  }
+
+  .cloud1{
+    display: none;
+  }
+
+  .cloud2{
+    right: -2rem;
+    bottom: 25rem;
+    width: 100%;
+  }
+
+  .sun{
+    width: 60%;
+  }
+
+  .man{
+    bottom: -34rem;
+    right: -92rem;
+  }
+
+  .mountain-bottom2{
+    bottom: -14rem;
+  }
+
+  .birds{
+    width: 25%;
+  }
+
+  .text-info2{
+    width: 78%;
+  }
+
+  .description2{
+    width: 75%;
+  }
+
+  .text-info3{
+    min-width: 75%;
+  }
+
+  .services{
+    min-width: 100%;
+  }
+
+  .bottom-mountain3{
+    width: 200%;
+  }
+
+  .section4{
+    height: 100vh;
+  }
+
+  .bottom-mountain4{
+    width: 200%;
+  }
+
+  .bottom-mountain5{
+    left: -9rem;
+    width: 100%;
+  }
+
+  .guide-section div{
+    width: 50rem;
+  }
+  
+  .section5{
+    height: 22vh;
+  }
+
+  .footer-ol{
+    display: none;
+  }
+
+  .logo-bottom{
+    width: 45%;
+  }
+
+  .footer{
+    justify-content: space-evenly;
+  }
+  
+
+
+}
+
+@media (min-width: 391px) and (max-width: 480px) {
+  html {
+    font-size: 47%;
+  }
+
+  .nav-ol {
+    display: none;
+  }
+
+  .nav-button1 {
+    display: block;
+  }
+
+  .section1 {
+    height: 90vh;
+  }
+
+  .mountain-right {
+    right: -110rem;
+    bottom: -150px;
+    z-index: 1;
+  }
+
+  .mountain-bottom1 {
+    left: -45rem;
+    bottom: -10rem;
+    z-index: 2;
+  }
+
+  .cloud1 {
+    width: 90%;
+    bottom: 20rem;
+    left: 0;
+  }
+
+  .cloud2 {
+    display: none;
+  }
+
+  .sun {
+    top: 10%;
+    left: 9%;
+    width: 56%;
+  }
+
+  .nav-txts {
+    top: 35%;
+    left: 12%;
+  }
+
+  .man {
+    bottom: 5rem;
+    right: -382px;
+    width: 200%;
+  }
+
+  .section2 {
+    height: 80vh;
+  }
+
+  .birds {
+    top: 5%;
+    right: 2%;
+    width: 20%;
+  }
+
+  .text-info2 {
+    top: 5%;
+    width: 80%;
+  }
+
+  .heading2 {
+    font-size: 4rem;
+  }
+
+  .description2 {
+    width: 50%;
+  }
+
+  .section3 {
+    height: 95vh;
+  }
+
+  .text-info3 {
+    min-width: 85%;
+  }
+
+  .services {
+    min-width: 100%;
+  }
+
+  .bottom-mountain3 {
+    width: 130%;
+    bottom: 0;
+  }
+
+  .guide-inner-section1 {
+    width: 50rem;
+  }
+
+  .bottom-mountain5 {
+    width: 120%;
+    left: -10rem;
+  }
+
+  .bottom-mountain4 {
+    width: 200%;
+  }
+
+  .section5 {
+    height: 20vh;
+  }
+
+  .logo-bottom {
+    width: 16rem;
+  }
+
+  .footer-ol {
+    display: none;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+
+  .service-title {
+    padding: 0;
+  }
+}
+
+/* Tablet section-1 */
+@media (min-width: 481px) and (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+
+  .section1 {
+    height: 80vh;
+  }
+
+  .mountain-right {
+    right: -52rem;
+    bottom: 0;
+    z-index: 1;
+    width: 140%;
+  }
+
+  .mountain-bottom1 {
+    left: -110rem;
+    bottom: -10rem;
+    z-index: 2;
+  }
+
+  .cloud1 {
+    width: 64%;
+    bottom: 25rem;
+    left: 19rem;
+  }
+
+  .cloud2 {
+    display: none;
+  }
+
+  .sun {
+    top: 13%;
+    left: 33%;
+    width: 40%;
+  }
+
+  .nav-txts {
+    top: 23%;
+    left: 12%;
+  }
+
+  .man {
+    bottom: 0rem;
+    right: -382px;
+    width: 150%;
+  }
+
+  .section2 {
+    height: 90vh;
+  }
+
+  .birds {
+    top: 5%;
+    right: 2%;
+    width: 20%;
+  }
+
+  .text-info2 {
+    top: 10%;
+    width: 55%;
+  }
+
+  .section3 {
+    height: 80vh;
+  }
+
+  .text-info3 {
+    min-width: 60%;
+  }
+
+  .services {
+    min-width: 100%;
+  }
+
+  .bottom-mountain3 {
+    width: 130%;
+    bottom: 0;
+  }
+
+  .section4 {
+    height: 90vh;
+  }
+
+  .guide-inner-section2 {
+    width: 60rem;
+  }
+  .bottom-mountain5 {
+    width: 90%;
+    left: -12rem;
+  }
+
+  .bottom-mountain4 {
+    width: 170%;
+  }
+
+  .section5 {
+    height: 20vh;
+  }
+
+  .logo-bottom {
+    width: 16rem;
+  }
+
+  .footer-ol li {
+    margin: 2rem;
+  }
+}
+
+/* Tablet section-2 */
+
+@media (min-width: 601px) and (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+
+  .section1 {
+    height: 80vh;
+  }
+
+  .mountain-right {
+    right: -92rem;
+    bottom: -2rem;
+    z-index: 1;
+  }
+
+  .mountain-bottom1 {
+    left: -50rem;
+    bottom: -10rem;
+    z-index: 2;
+  }
+
+  .cloud2 {
+    right: -1rem;
+    bottom: 40rem;
+    width: 70%;
+  }
+
+  .cloud1 {
+    left: -34rem;
+    bottom: 4rem;
+  }
+
+  .sun {
+    top: 10%;
+    left: 23%;
+    width: 45%;
+  }
+
+  .nav-txts {
+    top: 22%;
+    left: 8%;
+  }
+
+  .man {
+    bottom: 0rem;
+    right: -70rem;
+  }
+
+  .section2 {
+    height: 90vh;
+  }
+
+  .birds {
+    top: 5%;
+    right: 10%;
+    width: 20%;
+  }
+
+  .text-info2 {
+    top: 15%;
+    width: 55%;
+  }
+
+  .section3 {
+    height: 80vh;
+  }
+
+  .text-info3 {
+    min-width: 60%;
+  }
+
+  .services {
+    min-width: 100%;
+  }
+
+  .bottom-mountain3 {
+    width: 130%;
+    bottom: 0;
+  }
+
+  .section4 {
+    height: 90vh;
+  }
+
+  .guide-inner-section2 {
+    width: 60rem;
+  }
+  .bottom-mountain5 {
+    width: 90%;
+    left: -12rem;
+  }
+
+  .bottom-mountain4 {
+    width: 170%;
+  }
+
+  .section5 {
+    height: 20vh;
+  }
+
+  .logo-bottom {
+    width: 16rem;
+  }
+
+  .footer-ol li {
+    margin: 2rem;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 900px) {
+  html {
+    font-size: 60%;
+  }
+
+  .section1 {
+    height: 80vh;
+  }
+
+  .mountain-right {
+    right: -70rem;
+    bottom: -2rem;
+    z-index: 1;
+  }
+
+  .mountain-bottom1 {
+    left: -29rem;
+    bottom: -6rem;
+  }
+
+  .mountain-back {
+    left: -48rem;
+    bottom: 10rem;
+  }
+
+  .cloud2 {
+    right: -1rem;
+    bottom: 40rem;
+    width: 60%;
+  }
+
+  .cloud1 {
+    left: -34rem;
+    bottom: 4rem;
+  }
+
+  .sun {
+    top: 13%;
+    left: 35%;
+    width: 40%;
+  }
+
+  .nav-txts {
+    top: 31%;
+    left: 8%;
+  }
+
+  .man {
+    bottom: 0rem;
+    right: -60rem;
+  }
+
+  .section2 {
+    height: 80vh;
+  }
+
+  .birds {
+    top: 5%;
+    right: 10%;
+    width: 20%;
+  }
+
+  .text-info2 {
+    top: 15%;
+    width: 55%;
+  }
+
+  .section3 {
+    height: 80vh;
+  }
+
+  .text-info3 {
+    min-width: 60%;
+  }
+
+  .services {
+    min-width: 100%;
+  }
+
+  .bottom-mountain3 {
+    width: 130%;
+    bottom: 0;
+  }
+
+  .section4 {
+    height: 90vh;
+  }
+
+  .guide-inner-section2 {
+    width: 60rem;
+  }
+  .bottom-mountain5 {
+    width: 90%;
+    left: -12rem;
+  }
+
+  .bottom-mountain4 {
+    width: 170%;
+  }
+
+  .section5 {
+    height: 20vh;
+  }
+
+  .logo-bottom {
+    width: 16rem;
+  }
+
+  .footer-ol li {
+    margin: 2rem;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  html {
+    font-size: 60%;
+  }
+  .section1 {
+    height: 100vh;
+  }
+
+  .mountain-right {
+    right: -69rem;
+    bottom: -24rem;
+  }
+
+  .mountain-bottom1 {
+    left: -31rem;
+    z-index: 9;
+  }
+
+  .sun {
+    left: 43%;
+    width: 27%;
+  }
+
+  .cloud2 {
+    right: 10rem;
+    bottom: 15rem;
+    width: 45%;
+  }
+
+  .cloud1 {
+    left: -18rem;
+    bottom: 3rem;
+    z-index: 14;
+    width: 45%;
+  }
+
+  .section2 {
+    height: 100vh;
+  }
+
+  .man {
+    bottom: -14rem;
+    right: -58rem;
+  }
+
+  .mountain-bottom2 {
+    bottom: -12rem;
+  }
+
+  .text-info2 {
+    width: 50%;
+  }
+
+  .section3 {
+    height: 150vh;
+  }
+  .text-info3 {
+    height: 30%;
+  }
+
+  .bottom-mountain3 {
+    bottom: -2rem;
+    width: 100%;
+  }
+
+  .section4 {
+    height: 170vh;
+  }
+
+  .guide-section {
+    height: 70%;
+  }
+
+  .guide-section > div {
+    height: 5rem;
+    width: 60rem;
+  }
+
+  .bottom-mountain5 {
+    bottom: orem;
+    left: -12rem;
+    width: 60%;
+  }
+
+  .section5 {
+    height: 35vh;
+  }
+}
+
+
+@media screen and (min-height:1200px) {
+  .section1,.section2,.section3,.section4{
+    height: 60vh;
+  }
+
+  .section5{
+      height: 20vh;
+  }
+}
+
+@media screen  and (min-width:1500px){
+
+  html{
+    font-size: 75%;
+  }
+
+  .sun{
+    width: 25%;
+  }
+
+  .mountain-bottom2{
+    width: 100%;
+  }
+
+  .bottom-mountain3{
+    width: 100%;
+    bottom: -10rem;
+  }
+}
+
+@media screen  and (max-width:290px){
+  html{
+     font-size: 30%;
+  }
+
+  .section1{
+    height: 80vh;
+  }
+
+  .man{
+    right: -130rem;
+  }
+
+  .birds{
+    right: 2rem;
+  }
+
+  .text-info2{
+    top: 5%;
+    left: 5%;
+  }
+
+  .section3{
+    height: 90vh;
+  }
+
+  .section4{
+    height: 130vh;
+  }
+
+  .guide-section{
+    height: 100%;
+  }
+
+  .guide-details{
+    flex-direction: column;
+  }
+}
